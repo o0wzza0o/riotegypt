@@ -207,7 +207,7 @@
         document.getElementById('logoutBtn').addEventListener('click', () => {
           localStorage.removeItem('discordUserId');
           localStorage.removeItem('discordToken');
-          window.location.href = 'https://riotegypt.vercel.app/auth/discord';
+          window.location.href = 'https://riot-egypt1.glitch.me/auth/discord';
         });
  // Check the screen dimensions
  function checkScreenSize() {
@@ -282,7 +282,7 @@ function checkScreenSize() {
           const discordToken = localStorage.getItem('discordToken');
       
           if (!userId || !discordToken) {
-            window.location.href = 'https://riotegypt.vercel.app/auth/discord';
+            window.location.href = 'https://riot-egypt1.glitch.me/auth/discord';
             return;
           }
 
@@ -306,7 +306,7 @@ function checkScreenSize() {
         }
           } catch (error) {
             console.error(error);
-            window.location.href = 'https://riotegypt.vercel.app/auth/discord';
+            window.location.href = 'https://riot-egypt1.glitch.me/auth/discord';
           }
         });
     </script>
