@@ -9,7 +9,7 @@ app.use(express.static('public')); // خدمة الملفات الثابتة م�
 
 const CLIENT_ID = '1271525481044246671'; // استبدل بـ Client ID الخاص بك
 const CLIENT_SECRET = 'jgOWHvyy5jTX2kT4DamsAnObj-5OKgXz'; // استبدل بـ Client Secret الخاص بك
-const REDIRECT_URI = 'http://localhost:3000/callback'; // استبدل بـ URI التحويل الخاص بك
+const REDIRECT_URI = 'https://o0wzza0o.github.io/riotegypt/callback'; // استبدل بـ URI التحويل الخاص بك
 const scope = 'identify email'; // إضافة email للنطاقات المطلوبة
 
 // صفحة تسجيل الدخول
